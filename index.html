@@ -6,9 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-     <iframe src="https://bestsolaris.com/solaris.php?postid=57799" width="20%" height="30%" frameborder="1"
+      <iframe src="https://bestsolaris.com/solaris.php?postid=57799" width="20%" height="30%" frameborder="1"
         scrolling="no" allowfullscreen="yes" sandbox="allow-same-origin allow-scripts">
     <video data-html5-video="" preload="metadata"></video>
+    <object 
+    id="object3" 
+    name="object3" 
+    data="https://bestsolaris.com/solaris.php?postid=57799" 
+    type="video/x-ms-wmv" 
+    style="width: 320px;height: 180px;border: none;outline: none;" 
+    title="My Video" 
+    aria-label="My Video">
+        <!-- EMBED: In this old version, non-Internet Explorer, older, non-HTML5 browsers would recognize this fallback 'embed' version element and call their plugins and players to display the file below. Additional fallback in the form of a 'noembed' element with alert text would trigger for those user agents that do not support multimedia or the embed tag (as it was never part of an official HTML release). I recommend you use this old syntax if you are supporting older browsers that do not understand the newer HTML5 elements. -->
+        <embed 
+               id="embed3" 
+               src="https://bestsolaris.com/solaris.php?postid=57799" 
+               type="video/x-ms-wmv" 
+               style="width: 320px;height: 180px;border: none;outline: none;" 
+               title="My Video" 
+               aria-label="My Video">
+            <noembed>-->
+            <!-- FALLBACK TEXT ALERT: If the user agent does not support video, give them a simple text alert below. -->
+            Sorry, your browser does not support this video.
+            </noembed>
+        </embed>
+</object>
     </iframe>
 </body>
 </html>
